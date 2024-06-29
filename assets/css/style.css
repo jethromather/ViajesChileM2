@@ -39,7 +39,6 @@ p {
 
 li > a {
     color: white !important;
-    text-shadow: 1px 1px black;
 }
 
 .bg-darks {
@@ -55,8 +54,24 @@ li > a {
     background-color: #0CCAEF;
 }
 
+footer {
+    background-color: #0CCAEF;
+    height: 7.5rem;
+}
+
+.nobord {
+    text-shadow: none;
+    font-size: 2rem;
+    margin-right: 0.4rem;
+}
+
+.fuut {
+    font-size: 2rem;
+}
+
 @media (max-width: 768px) {
     .card {
         margin-top: 1.5rem;
     }
 }
+
