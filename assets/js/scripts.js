@@ -1,3 +1,6 @@
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 $(document).ready(function(){
     $(".jqew").click(function(){
         $(this).animate({
@@ -9,7 +12,7 @@ $(document).ready(function(){
     $(".invertido").click(function(){
         $(this).css({
             "color": "#0CCAEF",
-            "background-color": "gray"
+            "background-color": "#00707E"
         });
     });
     $("#enviarCorreo").click(function(){
