@@ -16,6 +16,6 @@ $(document).ready(function(){
         });
     });
     $("#enviarCorreo").click(function(){
-        alert("El correo fue enviado correctamente")
+        alert("El mensaje fue enviado correctamente")
     });
 });
